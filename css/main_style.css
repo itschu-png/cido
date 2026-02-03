@@ -85,7 +85,7 @@ body {
 }
 
 #wrap {
-    min-width: 1320px;
+    min-width: 1400px;
 }
 
 
@@ -781,4 +781,5 @@ body {
 #footer .footer_inner .text_s {
     font-size: 12px;
     padding-top: 20px;
+
 }
