@@ -1,0 +1,240 @@
+/* visual */
+#visual {
+    overflow: hidden;
+}
+
+.visual_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img_left {
+    width: 800px;
+    height: 770px;
+    position: relative;
+}
+
+.img_right {
+    width: 520px;
+    height: 770px;
+    position: relative;
+}
+
+.img_left video {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.img_right img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/* lip */
+#lip {
+    overflow: hidden;
+}
+
+#lip .lip_inner {
+    width: 1320px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#lip h3 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+#lip .gallery-sec {
+    position: relative;
+    height: 100%;
+}
+
+#lip .iso-box-wrapper {
+    width: 1350px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#lip .filter-wrapper {
+    margin: 50px 0px 150px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+#lip .iso-box {
+    margin-right: 20.4px;
+}
+
+
+#lip .filter-wrapper li a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#lip .filter-wrapper li p {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#lip .iso-box-wrapper h5 {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 18px;
+}
+
+#lip .iso-box-wrapper h4 {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.number {
+    /* 사용자가 누르지 않은 경우 */
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    display: none;
+}
+
+.see .number {
+    /* 사용자가 눌렀을 경우 */
+    display: block;
+}
+/* hover */
+#lip .iso-box-wrapper {
+    position: relative;
+}
+
+#lip .cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* A keyframe */
+    opacity: 0;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+#lip .cover:hover {
+    /* B keyframe */
+    opacity: 1;
+}
+
+
+
+
+
+/* others */
+.others_inner {
+    width: 1320px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#others h3 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+#others .gallery-sec {
+    position: relative;
+    height: 100%;
+}
+
+#others .iso-box-wrapper {
+    width: 1350px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#others .filter-wrapper {
+    margin: 50px 0px 150px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+#others .iso-box {
+    margin-right: 20.4px;
+}
+
+
+#others .filter-wrapper li a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#others .filter-wrapper li p {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#others .iso-box-wrapper h5 {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 18px;
+}
+
+#others .iso-box-wrapper h4 {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.number {
+    /* 사용자가 누르지 않은 경우 */
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    display: none;
+}
+
+.see .number {
+    /* 사용자가 눌렀을 경우 */
+    display: block;
+}
+
+/* hover */
+#others .iso-box-wrapper {
+    position: relative;
+}
+
+#others .cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* A keyframe */
+    opacity: 0;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+#others .cover:hover {
+    /* B keyframe */
+    opacity: 1;
+}
