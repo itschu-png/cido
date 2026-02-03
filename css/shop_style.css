@@ -1,3 +1,7 @@
+#container{
+    overflow: hidden;
+}
+
 /* visual */
 #visual {
     overflow: hidden;
@@ -237,4 +241,5 @@
 #others .cover:hover {
     /* B keyframe */
     opacity: 1;
+
 }
