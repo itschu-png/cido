@@ -85,7 +85,7 @@ body {
 }
 
 #wrap {
-    min-width: 1320px;
+    min-width: 1400px;
 }
 
 
@@ -342,6 +342,7 @@ body {
     margin: 0 auto;
     height: 752px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 #new .new_inner {
@@ -469,11 +470,16 @@ body {
 
 /* sub_banner */
 #sub_banner {
+    overflow: hidden;
+}
+
+#sub_banner .sub_banner_inner {
     margin: 0 auto;
     width: 1370px;
     height: 700px;
     text-align: left;
     position: relative;
+
 }
 
 #sub_banner p{
@@ -783,4 +789,5 @@ body {
     padding-top: 20px;
 
 }
+
 
