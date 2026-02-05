@@ -1,0 +1,136 @@
+#visual {
+    overflow: hidden;
+
+}
+
+.visual_inner {
+    margin: 0 auto;
+    height: 614px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.visual_inner .text_wrap {
+    width: 1320px;
+    height: 614px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.visual_inner .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #fff4e4;
+    padding: 120px 0px 0px 150px;
+}
+
+
+.visual_inner h3 {
+    font-family: Electrolize;
+    font-weight: 400;
+    line-height: 60px;
+    font-size: 40px;
+}
+
+.visual_inner p {
+    margin-top: 40px;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.visual_inner a {
+    display: block;
+    width: 240px;
+    height: 45px;
+    background-color: #68191e;
+    border-radius: 20px;
+    color: #fff4e4;
+    text-align: center;
+    padding-top: 13px;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+
+
+
+/* type */
+#type {
+    overflow: hidden;
+    background-color: #fff4e4;
+    height: 1090px;
+}
+
+.type_inner {
+    width: 994px;
+    margin: 80px auto;
+}
+
+.type_inner h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.type_inner p {
+    text-align: center;
+    font-size: 15;
+    margin: 30px;
+    line-height: 25px;
+}
+
+.type_inner h6 {
+    text-align: center;
+    font-size: 15;
+    color: #656565;
+}
+
+.type_inner h4 {
+    font-size: 15;
+    font-weight: 600;
+}
+
+.type_inner h5 {
+    margin-top: 10px;
+    font-size: 13;
+    color: #686A71;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.box_flex {
+    height: 755px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.box {
+    background-color: white;
+    width: 470px;
+    height: 235px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    border: 2px solid #68191e;
+    box-sizing: border-box;
+}
+
+.box_img {
+    margin-right: 10px;
+}
+
+.box_text {
+    width: 300px;
+    margin-left: 10px;
+}
