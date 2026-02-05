@@ -1,0 +1,243 @@
+#membership {
+    overflow: hidden;
+}
+
+.membership_inner {
+    width: 100%;
+    height: 880px;
+    background-color: #fff4e4;
+    text-align: center;
+}
+
+.membership_inner h1 {
+    padding: 100px 0px 20px 0px;
+}
+
+.membership_inner h2 {
+    font-size: 30px;
+}
+
+.membership_inner h3 {
+    font-size: 21px;
+    font-weight: 500;
+    color: #676767;
+    padding-top: 20px;
+}
+
+.membership_inner h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+/* 양쪽 점선 */
+#membership h3::before,
+#membership h3::after {
+    content: "";
+    width: 154px;
+    height: 1px;
+    flex-shrink: 0;
+
+    background-image: repeating-linear-gradient(to right,
+            #bdb7ad 0,
+            #bdb7ad 3px,
+            /* 점 길이 */
+            transparent 5px,
+            transparent 5px
+            /* ← 이 값이 클수록 더 널널 */
+        );
+}
+
+.membership_inner p {
+    padding: 68px 0px 75px 0px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.benefits-table .bold {
+    font-weight: bold;
+}
+
+.benefits-table .red {
+    color: #68191e;
+}
+
+
+
+/* 전체 테이블 영역 */
+.table-wrap {
+    width: 737px;
+    height: 335px;
+    margin: 0 auto;
+    padding-top: 12px;
+
+    /* 상단 포인트 라인 */
+    border-top: 3px solid #68191e;
+    border-bottom: 3px solid #d6d1c7;
+
+    /* 회원등급 옆 이중 세로선 */
+    background:
+        linear-gradient(to right,
+            transparent 35%,
+            #c9c2b8 35%,
+            #c9c2b8 calc(35% + 1px),
+            transparent calc(35% + 1px),
+            transparent calc(35% + 5px),
+            #c9c2b8 calc(35% + 5px),
+            #c9c2b8 calc(35% + 6px),
+            transparent calc(35% + 6px));
+}
+
+/* 테이블 */
+.benefits-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 헤더 */
+.benefits-table th {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 14px 10px;
+    border-bottom: 3px solid #c9c2b8;
+}
+
+/* 바디 */
+.benefits-table td {
+    font-size: 14px;
+    padding: 18px 10px;
+    border-bottom: 3px solid #d6d1c7;
+    text-align: center;
+}
+
+/* 첫 번째 컬럼 */
+.benefits-table th:first-child,
+.benefits-table td:first-child {
+    width: 35%;
+    letter-spacing: 0.05em;
+}
+
+/* 온도 텍스트 */
+.benefits-table span {
+    display: block;
+    margin-top: 4px;
+    font-size: 12px;
+    opacity: 0.65;
+}
+
+/* 마지막 줄 */
+.benefits-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+
+
+
+/* cs */
+#container {
+    overflow: hidden;
+    margin: 0;
+    background: #fff;
+}
+
+#cs-board {
+    width: 100%;
+    min-height: 942px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.cs-inner {
+    width: 100%;
+    max-width: 1320px;
+    min-height: 740px;
+    margin: 80px auto 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.cs-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.board-top {
+    margin-bottom: 10px;
+}
+
+.board-top select {
+    height: 28px;
+    font-size: 12px;
+}
+
+.board-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.board-table thead {
+    background: #f6f5ee;
+}
+
+.board-table th {
+    padding: 14px 0;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+}
+
+.board-table td {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #8f8f8f;
+}
+
+.board-table .title {
+    text-align: center;
+}
+
+.board-bottom {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 50px;
+}
+
+.board-bottom select,
+.board-bottom input {
+    height: 26px;
+    font-size: 12px;
+}
+
+.board-bottom input {
+    width: 160px;
+}
+
+.board-bottom button {
+    height: 26px;
+    padding: 0 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.pagination {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.pagination span {
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.pagination .on {
+    border: 1px solid #222;
+    padding: 6px 10px;
+}
