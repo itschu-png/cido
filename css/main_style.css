@@ -329,7 +329,7 @@ body {
 
 
 /* video */
-.video_wrap video {
+.video_wrap{
   width: 1100px;
   max-width: none;
   position: relative;
@@ -794,3 +794,4 @@ body {
     padding-top: 20px;
 
 }
+
