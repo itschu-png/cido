@@ -161,7 +161,9 @@ body {
 
 
 /* container */
-
+#container{
+        overflow: hidden;
+}
 
 
 /* visual  */
@@ -330,11 +332,10 @@ body {
 
 /* video */
 .main_video {
-  width: 100vw;         
+  width: 100%;         
   overflow: hidden;      
 }
 
-/* 1920 디자인 캔버스 */
 .main_video_inner {
   width: 1920px;         
   position: relative;
@@ -342,7 +343,6 @@ body {
   transform: translateX(-50%);
 }
 
-/* 비디오 */
 .main_video_inner video {
   width: 1920px;
   height: auto;
@@ -805,6 +805,7 @@ body {
     padding-top: 20px;
 
 }
+
 
 
 
