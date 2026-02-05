@@ -329,19 +329,24 @@ body {
 
 
 /* video */
-.video_wrap {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  overflow: hidden;
+.main_video {
+  width: 100vw;         
+  overflow: hidden;      
 }
 
-.video_wrap video {
-  width: 1100px;
-  max-width: none;
+/* 1920 디자인 캔버스 */
+.main_video_inner {
+  width: 1920px;         
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* 비디오 */
+.main_video_inner video {
+  width: 1920px;
+  height: auto;
+  display: block;
 }
 
 
@@ -800,5 +805,6 @@ body {
     padding-top: 20px;
 
 }
+
 
 
